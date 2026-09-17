@@ -1,0 +1,26 @@
+# Environments
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets & config
+.env
+*.local
+
+# Models & data (large / private — do not commit)
+models/*.h5
+models/*.pb
+models/*.keras
+data/*
+!data/.gitkeep
+!models/.gitkeep
+
+# Django
+db.sqlite3
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

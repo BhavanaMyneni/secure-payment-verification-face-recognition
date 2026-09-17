@@ -1,0 +1,18 @@
+# Core
+numpy>=1.26
+opencv-python>=4.9
+
+# Face recognition / ML
+tensorflow>=2.16
+keras>=3.0
+
+# OTP
+pyotp>=2.9
+
+# Backend
+django>=5.0
+mysqlclient>=2.2
+
+# Dev / testing
+pytest>=8.0
+python-dotenv>=1.0
